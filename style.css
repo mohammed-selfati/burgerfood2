@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+.body-block{
+    display: flex;
+}
+.body-block h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+}
+.body-block p{
+    margin: 8px 0 0;
+    color: #999;
+}
+.title{
+    font-family: 'Kaushan Script' ;
+    
+    
+}
+.titles{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 52px;
+    color: #f44336;
+    font-weight: 100;
+}
+.ap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation{
+    background-color: #f44336;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding: 13px 35px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-weight: 400;
+}
+.btns{
+    background-color: #f44336;
+    border: none; 
+    transition: all .3s ease; 
+    color:white
+}
+.btns:hover{
+    background-color: #f12819;
+    color:white
+
+}
+.reservation:hover{
+    background-color: #f12819;
+}
+
+
+.copy-right-grids {
+    position: relative;
+    padding: 20px 20px;
+    background: #211E1E;
+    margin-top: 150px;
+}
+.copy-left{
+    color: rgb(235, 230, 230);
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.section2 .container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section2{
+    background: rgb(245, 245, 245);
+}
+
+
+.chef-img{
+    max-height: 200px;
+    overflow: hidden;
+    max-width: 200px;       
+    border-radius: 50%;
+    background-position: center;
+    margin: auto;
+}
+.chef-img img{
+    transition: all 1s ease;
+    text-align: center;
+    margin: auto;
+}
+
+.chef-img img:hover{
+    transform: scale(1.1);      
+}
+.body-block2{
+ display: flex;
+ margin: 20px;
+ justify-content: space-between;
+}
+.chefs{
+    text-align: center;
+
+    width: 20%;
+    position: relative;
+}
+.team-title h4 {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.8;
+    
+}
+
+.team-title span {
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal;
+    margin-bottom: 15px;
+    color: #AAA !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+   
+}
+.chef-desc p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-family: open sans,sans-serif;
+}
+
+
+.section3 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading-block .titles{
+    text-align: center;
+}
+
+.section3 .part1 h3,.section3 .part2 h3,.section3 .part3 h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color:#444;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.section3 .part1 p,.section3 .part2 p,.section3 .part3 p{
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    color: #555;
+    font-size: .875rem;
+}
+
+.section3 .part1,.section3 .part2,.section3 .part3{
+  
+    text-align: center;
+
+}
+.section3 .part3 a{
+    color: white;
+    background:#f12819 ;
+    padding:5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}

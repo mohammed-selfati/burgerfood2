@@ -1,0 +1,100 @@
+body{
+    background: url("images/users.jpg");
+    background-size: cover;
+    background-position: center;
+}
+input[type="email"], input[type="password"] {
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+	border: 0;
+	border-radius: 5px;
+	color: #b3b3b3;
+	background-color: #e6e6e6;
+	margin-bottom: 15px;
+}
+
+button {
+	background-color: #f12819;
+	color: white;
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+#option {
+	color: #b3b3b3;
+	margin-top: 10px;
+	display: block;
+	font-size: 0.9em;
+}
+
+#login-body {
+	max-width: 450px;
+	margin: auto;
+	background-color: rgba(0,0,0,.75);
+	color: white;
+	border-radius: 5px;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+.grey {
+	color: #777;
+}
+.frm{
+    margin-top: 150px;
+    background: white;
+    padding: 25px;
+    border-radius: 24px;
+}
+
+
+.copy-right-grids {
+    padding: 20px 20px;
+    background: #211E1E;
+    margin-top: 25px;
+}
+.copy-left{
+    color: rgb(235, 230, 230);
+    text-align: center;
+    font-size: 13px;
+}
+
+
+input[type="email"], input[type="password"],input[type="text"], input[type="date"]{
+ 
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+	border: 0;
+	border-radius: 5px;
+	color: #b3b3b3;
+	background-color: #e6e6e6;
+	margin-bottom: 15px;
+}
+
+#option {
+	color: #b3b3b3;
+	margin-top: 10px;
+	display: block;
+	font-size: 0.9em;
+}
+
+#login-body {
+	max-width: 450px;
+	margin: auto;
+	background-color: rgba(0,0,0,.75);
+	color: white;
+	border-radius: 5px;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+.grey {
+	color: #777;
+}
